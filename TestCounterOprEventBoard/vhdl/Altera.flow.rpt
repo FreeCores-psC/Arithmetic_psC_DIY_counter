@@ -1,0 +1,128 @@
+Flow report for Altera
+Mon Mar  6 14:57:04 2023
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Mon Mar  6 14:56:48 2023       ;
+; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
+; Revision Name                   ; Altera                                      ;
+; Top-level Entity Name           ; top_main                                    ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 91 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 161                                         ;
+; Total pins                      ; 176 / 457 ( 39 % )                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 1 / 6 ( 17 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/06/2023 14:54:52 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Altera              ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 118796715827174.167813249218576        ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; top_main    ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; top_main    ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; top_main    ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; top_main                               ; Altera        ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:24     ; 1.0                     ; 4964 MB             ; 00:00:12                           ;
+; Fitter               ; 00:01:15     ; 1.0                     ; 7292 MB             ; 00:04:16                           ;
+; Assembler            ; 00:00:12     ; 1.0                     ; 4880 MB             ; 00:00:12                           ;
+; Timing Analyzer      ; 00:00:14     ; 1.2                     ; 5267 MB             ; 00:00:14                           ;
+; Total                ; 00:02:05     ; --                      ; --                  ; 00:04:54                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; WIN10            ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; WIN10            ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; WIN10            ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; WIN10            ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map top_main --source=C:\Novakod_Studio/use/genvhdl/lib\packageConv.vhd --source=C:\Novakod_Studio/use/genvhdl/lib\RodinStd.vhd --source=C:\Novakod_Studio/use/genvhdl/lib\ctype.vhd --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\BoardLib.vhd --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\MemoryBankLib.vhd --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\CharTable.hex --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\BoardPLL.vhd --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\I2C_AV_Config.v --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\I2C_Controller.v --source=C:\Novakod_Studio/bsp/TerasicDE1SoC\lib\\AudioPLL_0002.v --source=H:\012_OpenCores\simple_customized_counter\TestCounterOprEventBoard\vhdl\main.vhd --source=H:\012_OpenCores\simple_customized_counter\TestCounterOprEventBoard\vhdl\top_main.vhd --family="Cyclone V" --part=5CSEMA5F31C6 --csf=C:\NovakodTemp\vhdl\Altera.qsf
+quartus_fit top_main --optimize_io_register_for_timing=on --csf=C:\NovakodTemp\vhdl\Altera.qsf
+quartus_asm top_main --csf=C:\NovakodTemp\vhdl\Altera.qsf
+quartus_sta top_main --csf=C:\NovakodTemp\vhdl\Altera.qsf
+
+
+

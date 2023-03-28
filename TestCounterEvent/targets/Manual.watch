@@ -1,0 +1,6 @@
+PCounterEvent.iReset
+PCounterEvent.iUp
+PCounterEvent.iDown
+PCounterEvent.oValue
+PCounterEvent.iLoad
+PCounterEvent.iLoadValue
