@@ -1,2 +1,0 @@
-H:\011_psC_Code\_OpenCoresFiles\Examples\simple_customized_counter\TestCounterOprEventAPI\CppCode\TestProject\Debug\TestProjectSim.exe
-H:\012_OpenCores\simple_customized_counter\TestCounterOprEventAPI\CppCode\TestProject\Debug\TestProjectSim.exe
