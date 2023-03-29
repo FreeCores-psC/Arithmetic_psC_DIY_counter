@@ -1,14 +1,14 @@
 [*]
 [*] GTKWave Analyzer v3.3.87 (w)1999-2017 BSI
-[*] Fri Mar 03 23:53:15 2023
+[*] Wed Mar 29 00:34:00 2023
 [*]
-[dumpfile] "H:\011_psC_Code\_OpenCoresFiles\Examples\simple_customized_counter\TestCounterLevel\targets\Simulation.vcd"
-[dumpfile_mtime] "Fri Mar 03 23:51:27 2023"
-[dumpfile_size] 1509
-[savefile] "H:\011_psC_Code\_OpenCoresFiles\Examples\simple_customized_counter\TestCounterLevel\targets\Simulation.sav"
+[dumpfile] "H:\012_GitHub\Arithmetic_psC_DIY_counter\TestCounterLevel\targets\Simulation.vcd"
+[dumpfile_mtime] "Wed Mar 29 00:33:52 2023"
+[dumpfile_size] 1309
+[savefile] "H:\012_GitHub\Arithmetic_psC_DIY_counter\TestCounterLevel\targets\Simulation.sav"
 [timestart] 0
 [size] 1105 445
-[pos] 353 261
+[pos] -1 -1
 *-7.394829 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [sst_width] 197
 [signals_width] 150
@@ -21,13 +21,10 @@ top.iDown
 top.iLoad
 @22
 top.iLoadValue[7:0]
-@28
-top.oValue_ev
-@22
 top.oValue[7:0]
 @c08421
 top.oValue[7:0]
-@28
+@29
 (0)top.oValue[7:0]
 (1)top.oValue[7:0]
 (2)top.oValue[7:0]
