@@ -1,5 +1,5 @@
 // ===================================================================
-// This is a library of counter templates
+// This is a library of counter templates 
 // ===================================================================
 // Template parameter:
 //    - TYPE determines the type of the counter
