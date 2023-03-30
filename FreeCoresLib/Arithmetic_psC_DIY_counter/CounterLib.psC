@@ -51,6 +51,10 @@
 //    - CCounterOprLevel_T: Using signal editor and viewer
 //                              Project in "TestCounterOprLevel" folder
 // ===================================================================
+// 
+// Copyright ICI Techno 2016-2023, see LICENSE.
+//
+// ===================================================================
 
 library CounterLib
 {
